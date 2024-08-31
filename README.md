@@ -1,6 +1,5 @@
 # PRODUCTION STATUS: NOT READY
 
-# server
+# file-structure-reader
 
-Repository provides node.js server package implementation
-
+Repository provides node.js file structure reader package implementation
