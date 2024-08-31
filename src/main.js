@@ -1,1 +1,1 @@
-export { FileStructureReader } from "./file-structure-reader";
+export { FileStructureReader } from './file-structure-reader';
