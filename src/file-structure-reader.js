@@ -1,12 +1,12 @@
-import fs from 'node:fs';
-import path from 'node:path';
+import fs from "node:fs";
+import path from "node:path";
 
 /**
  * A class to collect and manage file paths within a directory.
  */
 export class FileStructureReader {
   /**
-   * Create a FileStructureReader.
+   * Create a FileStructureReader. ***
    * @param {string} rootDir - The root directory to start collecting file paths from.
    */
   constructor(rootDir) {
