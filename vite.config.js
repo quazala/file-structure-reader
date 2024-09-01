@@ -5,17 +5,12 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/main.js'),
-      name: 'QuazalaServer',
+      name: 'QuazalaFileStructureReader',
       fileName: (format) => `main.${format}.js`,
       formats: ['es', 'cjs'],
     },
     rollupOptions: {
-      external: [/^node:/, 'events', 'stream', 'path', 'ws'],
-      output: {
-        globals: {
-          ws: 'WebSocket',
-        },
-      },
+      external: [/^node:/, 'events', 'stream', 'path'],
     },
     target: 'node18',
     minify: false,
